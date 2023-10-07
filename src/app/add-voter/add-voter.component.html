@@ -1,0 +1,43 @@
+<div class="outer">
+
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name" [(ngModel)]="firstName">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Middle name" [(ngModel)]="middleName">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name" [(ngModel)]="lastName">
+    </div>
+  </div>
+<br>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Permanent Address" [(ngModel)]="permanentAddress">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Current Addres" [(ngModel)]="currentAddress">
+    </div>
+  </div>
+<br>
+  <div class="row">
+    <div class="col">
+      <input type="number" class="form-control" placeholder="Age" [(ngModel)]="age">
+    </div>
+
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Aadhar Number" [(ngModel)]="aadharNumber">
+    </div>
+  </div>
+<br>
+  <div class="row">
+    <div class="col">
+      <input type="email" class="form-control" placeholder="Email" [(ngModel)]="email">
+    </div>
+  </div>
+<br>
+  <div class="col" style="margin-left: 40%;">
+    <button class="btn btn-success" (click)="submit()">SUBMIT</button>
+  </div>
+</div>

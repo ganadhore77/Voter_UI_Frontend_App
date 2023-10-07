@@ -1,0 +1,27 @@
+<div class="outer">
+  <table class="table table-bordered" style="text-align: center;">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Middle Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Permanent Address</th>
+        <th scope="col">Current Address</th>
+        <th scope="col">Age</th>
+        <th scope="col">Aadhar Number</th>
+        <th scope="col">Email</th>
+      </tr>
+
+      <tr *ngFor="let a of voterList">
+        <td>{{a.id}}</td>
+        <td>{{a.firstName}}</td>
+        <td>{{a.middleName}}</td>
+        <td>{{a.lastName}}</td>
+        <td>{{a.permanentAddress}}</td>
+        <td>{{a.currentAddress}}</td>
+        <td>{{a.age}}</td>
+        <td>{{a.aadharNumber}}</td>
+        <td>{{a.email}}</td>
+      </tr>
+  </table>
+</div>
