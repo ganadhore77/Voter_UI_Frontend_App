@@ -16,6 +16,11 @@ export class AddVoterComponent {
   aadharNumber: any;
   email: any;
 
+  ngOnInit() {
+      console.log("AddVoterComponent Init method called");
+    // this.firstName="GANESH"
+  }
+
   constructor(private service: VoterService) {}
 
   clear() {

@@ -16,7 +16,6 @@ ngOnInit():void{
 this.service.getAllVoters().subscribe(data => this.voterList = data);
 
 console.log(this.voterList);
-
 }
 
 }
